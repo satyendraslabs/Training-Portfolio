@@ -6,7 +6,6 @@
 }
 
 .page_wrapper {
-    border: 2px dashed red;
     max-width: 1600px;
     margin: 0 auto;
 }
@@ -40,15 +39,14 @@
 /* Container2_Content_upper */
 
 .content_upper {
-    width: 796px;
-    height: 50px;
+    width: 804px;
     margin: 130px auto;
-    border: 1px solid black;
     display: flex;
     gap: 40px;
     padding: 0px;
+    display: flex;
+    flex-wrap: wrap;
 }
-
 .button {
     width: 130px;
     height: 50px;
@@ -78,8 +76,7 @@
 
 .content_bottom {
     width: 1296px;
-    min-height: 900px;
-    border: 2px solid;
+    min-height: 300px;
     padding: 0px;
     display: flex;
     flex-wrap: wrap;
@@ -96,7 +93,7 @@
     border-radius: 10px 10px;
     overflow: hidden;
     position: relative;
-    border: 1px solid #ccc;
+    border: 1px solid #a09d9d;
     text-align: center;
     cursor: pointer;
 }
@@ -145,11 +142,17 @@
     left: 0;
     width: 100%;
     height: 100%;
-    /* background: rgba(196, 182, 182, 0); */
-   
     transition: background 0.5s ease;
-    z-index: 1; /* Ensure the overlay is above the image */
+    z-index: 1; 
 }
 .cards:hover::before {
-    background: radial-gradient(circle, rgba(12, 11, 11, 0.233) 20%, rgba(0, 0, 0, 0.596) 70%);
+    background: radial-gradient(circle, rgba(3, 3, 3, 0.521) 15%, rgba(0, 0, 0, 0.733) 70%);
+}
+.hide{
+    display: none;
+}
+.button_active{ 
+    background-color: #F54C5C;
+
+    color: white;
 }

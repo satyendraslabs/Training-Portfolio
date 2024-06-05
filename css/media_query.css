@@ -1,0 +1,235 @@
+/* Media query for max-width:1130px */
+@media screen and (max-width:1400px) {
+    .cards {
+        width: 558px;
+    }
+
+    #card1_img {
+        width: 550px;
+    }
+}
+
+/* Media query for max-width:1130px */
+@media screen and (max-width:1200px) {
+    .cards {
+        width: 468px;
+        height: 340px;
+    }
+
+    #card1_img {
+        width: 470px;
+    }
+}
+
+/* Media query for max-width:1130px */
+@media screen and (max-width:850px) {
+    .heading {
+        font-size: 52px;
+    }
+
+    .nav-img {
+        left: 46px;
+    }
+}
+
+
+/* Media query for max-width:1130px */
+@media screen and (max-width:992px) {
+    .cards {
+        width: 348px;
+        height: 320px;
+    }
+
+    #card1_img {
+        width: 470px;
+    }
+
+    .button {
+        font-size: 12px;
+    }
+    .cards:hover .text {
+        font-size: 14px;
+        left: 40%;
+    }
+}
+
+/* Media query for max-width:1130px */
+@media screen and (max-width:768px) {
+    .cards {
+        width: 257px;
+        height: 224px;
+    }
+
+    #card1_img {
+        width: 249px;
+    }
+
+    .content_upper {
+
+        gap: 12px;
+    }
+
+    .button {
+        font-size: 9px;
+        width: 98px;
+        height: 40px;
+    }
+
+       
+
+}
+/* Media query for max-width:1130px */
+@media screen and (max-width:738px) {
+.cards:hover .text {
+    font-size: 9px;
+    left: 50%;
+    bottom: 0px;
+}
+}
+
+
+
+/* Media query for max-width:1130px */
+@media screen and (max-width:576px) {
+    .content_upper {
+        width: 540px;
+    }
+    .content_bottom {
+        width: 525px;
+    }
+    .cards {
+        width: 250px;
+        height: 210px;
+    }
+    #card1_img {
+        width: 240px;
+    }
+}
+
+
+/* Media query for max-width:1130px */
+@media screen and (max-width:560px) {
+
+    .content_upper {
+        width: 430px;
+    }
+}
+
+
+
+/* Media query for max-width:1130px */
+@media screen and (max-width:545px) {
+
+    .content_bottom {
+        width: 480px;
+    }
+    .cards {
+        width: 228px;
+        height: 186px;
+    }
+    #card1_img {
+        width: 215px;
+    }
+    .heading {
+        font-size: 34px;
+    }
+    .nav-img {
+        width: 22px;
+    }
+
+}
+
+/* Media query for max-width:1130px */
+@media screen and (max-width:500px) {
+
+    .content_bottom {
+        width: 450px;
+    }
+    .cards {
+        width: 213px;
+        height: 180px;
+    }
+    #card1_img {
+        width: 200px;
+    }
+    .content_upper {
+        margin: 110px auto;
+    }
+
+}
+
+
+/* Media query for max-width:1130px */
+@media screen and (max-width:470px) {
+
+    .content_bottom {
+        width: 412px;
+    }
+    .cards {
+        width: 194px;
+        height: 152px;
+    }
+    #card1_img {
+        width: 186px;
+    }
+    .content_upper {
+        width: 320px;
+    }
+    .content_upper {
+        margin: 75px auto;
+    }
+}
+
+/* Media query for max-width:1130px */
+@media screen and (max-width:432px) {
+
+    .content_bottom {
+        width: 362px;
+    }
+    .cards {
+        width: 169px;
+        height: 130px;
+    }
+    #card1_img {
+        width: 162px;
+    }
+
+
+}
+
+
+
+/* Media query for max-width:1130px */
+@media screen and (max-width:385px) {
+    .content_bottom {
+        width: 330px;
+    }
+    .cards {
+        width: 153px;
+        height: 130px;
+    }
+
+    #card1_img {
+        width: 140px;
+    }
+    .heading {
+        font-size: 25px;
+    }
+}
+
+/* Media query for max-width:1130px */
+@media screen and (max-width:352px) {
+    .content_bottom {
+        width: 300px;
+    }
+    .cards {
+        width: 138px;
+        height: 112px;
+    }
+    #card1_img {
+        width: 126px;
+    }
+    .content_upper {
+        width: 210px;
+    }
+}
